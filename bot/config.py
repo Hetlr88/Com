@@ -20,7 +20,7 @@ class Config(object):
         int(x) for x in get_config(
             "AUTH_USERS",
             should_prompt=True
-        ).split(6169288210)
+        ).split()
     )
     # the download location, where the HTTP Server runs
     DOWNLOAD_LOCATION = get_config("DOWNLOAD_LOCATION", "/app/downloads")

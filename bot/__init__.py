@@ -9,7 +9,7 @@ import os
 import time
 
 
-from bot.config import Config
+from config import Config
 
 
 # TODO: is there a better way?
